@@ -52,11 +52,13 @@ The objects of discourse analysis (discourse, writing, conversation, communicati
 
 ### Document Term Matrix (DTM)
 
-It is a matrix that represents the the frequency distributions of each word in different documents of a corpus. In this matrix, the count of every time a word appeared in a document is presented. 
+It is a matrix that represents the the frequency distribution of each word in different documents of a corpus. It is a mathematical matrix that describes the frequency of terms that occur in a collection of documents. In this matrix, rows correspond to documents in the collection and columns correspond to terms. 
 
 ### IDF
 
-Inverse Document Frequency is the method to calculate the 
+IDF measures how important a term is. While computing Term Frequency, all terms are considered equally important. However it is known that certain terms, such as "is", "of", and "that", may appear a lot of times but have little importance. Thus IDF weighs down the frequent terms while scales up the rare ones using the following formula: 
+
+IDF(t) = log_e(Total number of documents / Number of documents with term t in it).
 
 ### Keyword
 
