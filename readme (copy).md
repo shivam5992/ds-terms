@@ -62,11 +62,7 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
 
 ### Keyword
 
-Also known as tokens or words 
-
-### Languge Model
-
-A statistical language model is a probability distribution over sequences of words. Given such a sequence, say of length m, it assigns a probability {\displaystyle P(w_{1},\ldots ,w_{m})} to the whole sequence. Having a way to estimate the relative likelihood of different phrases is useful in many natural language processing applications, especially ones that generate text as an output. Language modeling is used in speech recognition, machine translation, part-of-speech tagging, parsing, handwriting recognition, information retrieval and other applications.
+Keywords are the elements that are sewed together to create sentences and phrases. They are also known as tokens or words. 
 
 ### LDA
 
